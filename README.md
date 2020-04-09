@@ -1,3 +1,19 @@
+# Simple Electron-React app
+
+Steps to reproduce or git clone this repo.
+
+ *   run __npx create-react-app__ to generate a basic React application  
+ *   run __npm install --save-dev electron__
+ *   add main.js from your [electron-quick-start](https://github.com/electron/electron-quick-start) project (we’ll rename it to electron-starter.js, for clarity), also add preload.js
+ *   modify call to mainWindow.loadURL (in electron-starter.js) to use localhost:3000 (webpack-dev-server)
+ *   add a main entry to package.json for electron-starter.js
+ *   add a run target to start Electron to package.json
+ *   yarn start followed by yarn electron
+
+Questions ?  read code in this repo.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
