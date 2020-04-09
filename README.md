@@ -12,6 +12,22 @@ Steps to reproduce or git clone this repo.
 
 Questions ?  read code in this repo.
 
+Use : 
+
+```bash
+$ git clone https://github.com/netapau/rectron.git your-project && cd your-project
+$ npm install
+$ yarn start
+```
+
+Run electron
+
+```bash
+$ yarn electron
+```
+
+Happy coding !
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
